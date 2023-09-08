@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Controller;
 
 import com.example.demo.response.ImageResponse;
 import com.example.demo.service.imageService;
@@ -54,6 +54,6 @@ public class ImageController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
+
 }
